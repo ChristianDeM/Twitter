@@ -20,6 +20,10 @@ class User {
     get getlastUpdated(){
         return  this.lastUpdate
     }
+
+    set setUsername(newUSername){
+        this.username=newUSername
+    }
 }
 
 module.exports=User
