@@ -22,8 +22,11 @@ describe ("prueba jest",() =>{
     test("requerimientos 4 Agregando setters",()=>{
       const user =new User (1,"ChristianDm", "chris","bio")
        user.newUSername="Yano"
+       user.newBio="maka"
       expect (user.newUSername).toBe("Yano")
+      expect (user.newBio).toBe("maka")
+    })
+
   })
  
 
-})

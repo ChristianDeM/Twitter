@@ -24,6 +24,9 @@ class User {
     set setUsername(newUSername){
         this.username=newUSername
     }
+    set setBio(newBio){
+        this.bio=newBio
+    }
 }
 
 module.exports=User
